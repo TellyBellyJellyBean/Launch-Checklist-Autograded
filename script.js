@@ -21,7 +21,7 @@ window.addEventListener("load", function() {
         let list = document.getElementById("faultyItems");
         
 
-        console.log(pilot, copilot, fuelLevel,cargoLevel);
+        // console.log(pilot, copilot, fuelLevel,cargoLevel);
         formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel)
         //faultyItems goes here as an argument
         //maybe try pilot.value here
