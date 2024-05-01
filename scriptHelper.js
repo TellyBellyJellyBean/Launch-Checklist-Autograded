@@ -43,7 +43,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
     
     if (validateInput(pilot) === "Empty" || validateInput(copilot) === "Empty" || validateInput(fuelLevel) === "Empty" || validateInput(cargoLevel) === "Empty") {
         window.alert("All fields are required");
-        list.style = "visibility: hidden";
+        // list.style = "visibility: hidden";
         launchStatus.innerHTML = "Awaiting Information Before Launch";
         launchStatus.style.color = "black"
     } else if (validateInput(pilot) === "Is a Number" || validateInput(copilot) === "Is a Number") {
